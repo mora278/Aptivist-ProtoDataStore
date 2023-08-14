@@ -27,7 +27,10 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    AdvancedScreen()
+                    // Select Screen
+                    BasicScreen()
+                    // AdvancedScreen()
+                    // TestingScreen()
                 }
             }
         }
